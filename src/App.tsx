@@ -208,24 +208,7 @@ function Main() {
         <h2 className="title">
           Projectos<span>.</span>
         </h2>
-        <div className="interface">
-          <div className="project">
-            <div className="photo-project">
-              <img src="./assets/project-I.png" alt="photo-project" />
-            </div>
-            <div className="text-project">
-              <h3>AdminMS.</h3>
-              <p>
-                É um painel desenvolvido com Html, Css, Javascript, Bootstrap,
-                Chartjs, Firebase. Ele foi desenvolvido para atender a
-                necessidade de melhor administração, gerênciamento dos negócios
-                nas empresas.
-              </p>
-              <a href="https://adminms.netlify.app/" className="btn">
-                Visualizar
-              </a>
-            </div>
-          </div>
+        <div className="interface>
           <div className="project">
             <div className="photo-project">
               <img src="./assets/project-II.png" alt="photo-project" />
@@ -249,7 +232,7 @@ function Main() {
             <div className="text-project">
               <h3>Msimple.</h3>
               <p>
-                É um projecto desenvolvido com Wordepress, que faz uma descrição
+                É um projecto desenvolvido com Wordpress, que faz uma descrição
                 da empresa modelo Msimple.
               </p>
               <a href="https://projectapp08.wordpress.com/" className="btn">
