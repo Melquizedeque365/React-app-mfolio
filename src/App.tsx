@@ -208,7 +208,7 @@ function Main() {
         <h2 className="title">
           Projectos<span>.</span>
         </h2>
-        <div className="interface>
+        <div className="interface">
           <div className="project">
             <div className="photo-project">
               <img src="./assets/project-II.png" alt="photo-project" />
