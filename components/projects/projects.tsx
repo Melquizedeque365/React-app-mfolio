@@ -23,7 +23,7 @@ export const Projects = () => (
             <div className="rounded-lg mb-2 ">
               <img src="/project-I.png" alt="project-I" className="w-full rounded-lg h-60" />
             </div>
-            <h3 className="text-xl tracking-tight">Portfolio.</h3>
+            <h3 className="text-xl tracking-tight">Portfólio.</h3>
             <p className="text-muted-foreground text-base pb-10">
               É um Portfolio desenvolvido com Html, Css, Javascript.
             </p>
@@ -53,7 +53,7 @@ export const Projects = () => (
             </div>
             <h3 className="text-xl tracking-tight">Otechnology.</h3>
             <p className="text-muted-foreground text-base pb-10">
-              É um modelo de logo para uma empresa de tecnologia que quer distacar bem no mercado.
+              É um modelo de logo para uma empresa de tecnologia.
             </p>
               <Button size="lg" className="w-full gap-4 bg-linear-to-r from-sky-500 to-blue-500">
                 <Link href="https://www.linkedin.com/services/page/a80a20331571134685" className="flex justify-center gap-4 items-center">

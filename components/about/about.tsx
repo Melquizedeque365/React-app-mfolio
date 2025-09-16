@@ -24,7 +24,7 @@ export const About = () => (
               Sou Licenciado, no curso de Ensino de Electrônica e Telecomunicações pela Universade Agostinho Neto.
             </p>
             <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
-              Desenvolvedor web, fiz o curso de Progração Web no CFITEL em 2023, e até o momento tenho trabalhado no desenvolvimento de Aplicações Web Front-end e Back-end.
+              Desenvolvedor web, fiz o curso de Programação Web no CFITEL em 2023, e até o momento tenho trabalhado no desenvolvimento de Aplicações Web Front-end e Back-end.
             </p>
             <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground">
               Designer Gráfico, em 2022 participei no treinamento de Design Gráfico e Multimédia, gosto, e tem sido gratificante até agora dar vida a projectos gráficas.

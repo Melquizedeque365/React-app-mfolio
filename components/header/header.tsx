@@ -95,7 +95,7 @@ return (
                 {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </Button>
             {isOpen && (
-                <div className="absolute top-18 h-screen border-t flex flex-col w-full right-0 bg-linear-to-l from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950  py-4 px-3 container gap-8">
+                <div className="absolute top-18 py-6 h-screen border-t flex flex-col w-full right-0 bg-linear-to-l from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950  py-4 px-3 container gap-8">
                 {navigationItems.map((item) => (
                     <div key={item.title}>
                     <div className="flex flex-col gap-2">

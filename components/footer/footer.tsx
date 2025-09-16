@@ -1,9 +1,8 @@
 'use client'
 
 import { Badge } from "@/components/ui/badge";
-import { Facebook, Instagram, Linkedin} from "lucide-react";
+import { SiFacebook, SiInstagram, SiLinkedin} from "react-icons/si";
 import { ModeToggle } from "@/components/mode-toggle"
-import { Button } from "@/components/ui/button";
 import { Link as ScrollLink } from 'react-scroll'
 import {
 NavigationMenu,
@@ -92,13 +91,13 @@ export const Footer = () => (
                 <ModeToggle></ModeToggle>
                 <div className="flex gap-2 text-gray-600 dark:text-gray-300">
                   <Link href="https://www.facebook.com/melquisedequemanuel.antoniovava">
-                    <span><Facebook></Facebook></span>
+                    <span><SiFacebook className="w-7 h-6"></SiFacebook></span>
                   </Link>
                   <Link href="https://www.instagram.com/melquizedeque.ma">
-                    <span><Instagram></Instagram></span>
+                    <span><SiInstagram className="w-7 h-6"></SiInstagram></span>
                   </Link>
                   <Link href="https://ao.linkedin.com/in/melquizedeque-ant%C3%B3nio-394537268">
-                    <span><Linkedin></Linkedin></span>
+                    <span><SiLinkedin className="w-7 h-6"></SiLinkedin></span>
                   </Link>
                 </div>
               </div>

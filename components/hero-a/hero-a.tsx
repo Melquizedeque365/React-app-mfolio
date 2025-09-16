@@ -1,9 +1,8 @@
 'use client'
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { MoveRight,Facebook, Instagram, Linkedin } from "lucide-react";
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiMysql, SiNodedotjs, SiBootstrap} from "react-icons/si";
-import {  } from "react-icons/sl";
+import { MoveRight} from "lucide-react";
+import { SiFacebook, SiInstagram, SiLinkedin} from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import { Element } from 'react-scroll'
 import Link from "next/link";
@@ -31,8 +30,8 @@ export const Hero = () => {
   return (
     <Element name="home">
     <div className="w-full pt-30 lg:pt-10" >
-      <div className="container mx-auto px-2">
-        <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
+      <div className="container mx-auto px-2 h-screen">
+        <div className="flex gap-8 py-30 lg:py-40 items-center justify-center flex-col">
           
           <div className="flex gap-4 flex-col">
             
@@ -66,17 +65,17 @@ export const Hero = () => {
                 Eu sou Melquizedeque
             </p>
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-                Programador Web | Desinger Gráfico.
+                Programador Web | Designer Gráfico.
             </p>
-            <div className="flex justify-center gap-2 text-muted-foreground font-size-19 text-3xl">
+            <div className="flex justify-center gap-3 text-muted-foreground font-size-19">
               <Link href="https://www.facebook.com/melquisedequemanuel.antoniovava">
-                <span><Facebook></Facebook></span>
+                <span><SiFacebook className="w-7 h-6"></SiFacebook></span>
               </Link>
               <Link href="https://www.instagram.com/melquizedeque.ma">
-                <span><Instagram></Instagram></span>
+                <span><SiInstagram className="w-7 h-6"></SiInstagram></span>
               </Link>
               <Link href="https://ao.linkedin.com/in/melquizedeque-ant%C3%B3nio-394537268">
-                <span><Linkedin></Linkedin></span>
+                <span><SiLinkedin className="w-7 h-6"></SiLinkedin></span>
               </Link>
             </div>
           </div>
