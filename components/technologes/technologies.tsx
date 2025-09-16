@@ -22,9 +22,9 @@ export const Tecnologias = () => (
               <SiTailwindcss></SiTailwindcss>
               <SiShadcnui></SiShadcnui>
               <SiReact></SiReact>
-              <SiTypescript></SiTypescript>
             </div>
             <div className="flex gap-2">
+              <SiTypescript></SiTypescript>
               <SiVite></SiVite>
               <SiNextdotjs></SiNextdotjs>
               <SiNodedotjs></SiNodedotjs>
