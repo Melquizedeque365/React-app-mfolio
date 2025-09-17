@@ -33,7 +33,7 @@ export const Contact = () => {
                   </div>
                 </div>
                 <div className="lg:justify-end justify-center flex items-center">
-                <div className="flex flex-col gap-4 rounded-lg border-1 border-sky-200 dark:border-sky-900 p-4 lg:p-8 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
+                <div className="flex flex-col gap-4 rounded-lg border border-sky-200 dark:border-sky-900 p-4 lg:p-8 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
                     <div className="flex gap-2 items-center">
                       <span className="text-gray-600 dark:text-gray-300">
                         <Phone className="w-8 h-7">

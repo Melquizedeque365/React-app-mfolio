@@ -13,7 +13,7 @@ export const Tecnologias = () => (
               Tecnologias.
           </h2>
         </div>
-        <div className="flex flex-col items-center rounded-lg border-1 border-sky-200 dark:border-sky-900 p-4 justify-center itms-center my-5 gap-3 text-muted-foreground font-size-19 text-4xl lg:text-5xl bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
+        <div className="flex flex-col items-center rounded-lg border border-sky-200 dark:border-sky-900 p-4 justify-center itms-center my-5 gap-3 text-muted-foreground font-size-19 text-4xl lg:text-5xl bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
             <div className="flex gap-2">
               <SiHtml5></SiHtml5>
               <SiCss3></SiCss3>

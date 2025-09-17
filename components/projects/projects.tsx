@@ -19,13 +19,13 @@ export const Projects = () => (
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-5">
-          <div className="flex flex-col gap-2 rounded-lg border-1 border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
+          <div className="flex flex-col gap-2 rounded-lg border border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
             <div className="rounded-lg mb-2 ">
               <img src="/project-I.png" alt="project-I" className="w-full rounded-lg h-60" />
             </div>
             <h3 className="text-xl tracking-tight">Portfólio.</h3>
             <p className="text-muted-foreground text-base pb-10">
-              É um Portfolio desenvolvido com Html, Css, Javascript.
+              É um Portfólio desenvolvido com Html, Css, Javascript.
             </p>
             <Button size="lg" className="gap-4 bg-linear-to-r from-sky-500 to-blue-500">
               <Link href="https://foliom.netlify.app/" className="flex justify-center gap-4 items-center">
@@ -33,7 +33,7 @@ export const Projects = () => (
               </Link>
             </Button>
           </div>
-          <div className="flex flex-col gap-2 rounded-lg border-1 border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
+          <div className="flex flex-col gap-2 rounded-lg border border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
             <div className="rounded-lg mb-2">
               <img src="/project-II.png" alt="project-II" className="w-full rounded-lg h-60" />
             </div>
@@ -47,7 +47,7 @@ export const Projects = () => (
                 </Link>
               </Button>
           </div>
-          <div className="flex flex-col gap-2 rounded-lg border-1 border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
+          <div className="flex flex-col gap-2 rounded-lg border border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
             <div className="rounded-lg mb-2">
               <img src="/logo-s.jpg" alt="logo-s" className="w-full rounded-lg h-60 w-full" />
             </div>
