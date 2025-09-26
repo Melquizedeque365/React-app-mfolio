@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 
 import { Header } from "@/components/header/header"
 import { Hero } from "@/components/hero-a/hero-a"
@@ -7,7 +6,6 @@ import { Tecnologias } from "@/components/technologes/technologies"
 import { Projects } from "@/components/projects/projects"
 import { Contact } from "@/components/contacts/contacts"
 import { Footer } from "@/components/footer/footer"
-import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,16 +1,12 @@
 'use client'
 
-import { Badge } from "@/components/ui/badge";
 import { SiFacebook, SiInstagram, SiLinkedin} from "react-icons/si";
 import { ModeToggle } from "@/components/mode-toggle"
 import { Link as ScrollLink } from 'react-scroll'
 import {
 NavigationMenu,
-NavigationMenuContent,
 NavigationMenuItem,
-NavigationMenuLink,
 NavigationMenuList,
-NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 

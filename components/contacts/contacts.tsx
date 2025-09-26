@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon, Check, MoveRight, Phone, Mail } from "lucide-react";
+import { Phone } from "lucide-react";
 import { BiLogoGmail} from "react-icons/bi"
 import { useState } from "react";
 import { Element } from 'react-scroll'

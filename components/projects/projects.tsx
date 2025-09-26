@@ -1,6 +1,5 @@
 'use client'
-import { Badge } from "@/components/ui/badge";
-import { Facebook, Instagram, Linkedin, MoveRight} from "lucide-react";
+import { MoveRight} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Element } from 'react-scroll'
 import Link from "next/link";
@@ -23,12 +22,12 @@ export const Projects = () => (
             <div className="rounded-lg mb-2 ">
               <img src="/project-I.png" alt="project-I" className="w-full rounded-lg h-60" />
             </div>
-            <h3 className="text-xl tracking-tight">Portfólio.</h3>
+            <h3 className="text-xl tracking-tight">Exemplomstech.</h3>
             <p className="text-muted-foreground text-base pb-10">
-              É um Portfólio desenvolvido com Html, Css, Javascript.
+              É um projecto de portfólio desenvolvido com React, shadcn/ui, Next.js.
             </p>
             <Button size="lg" className="gap-4 bg-linear-to-r from-sky-500 to-blue-500">
-              <Link href="https://foliom.netlify.app/" className="flex justify-center gap-4 items-center">
+              <Link href="https://exemplomstech-project.vercel.app/" className="flex justify-center gap-4 items-center">
                 Saiba Mais <MoveRight className="w-4 h-4" />
               </Link>
             </Button>

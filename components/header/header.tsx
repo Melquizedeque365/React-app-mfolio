@@ -3,13 +3,10 @@
 import { Button } from "@/components/ui/button";
 import {
 NavigationMenu,
-NavigationMenuContent,
 NavigationMenuItem,
-NavigationMenuLink,
 NavigationMenuList,
-NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { Menu, MoveRight, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { useState } from "react";
 import Link from "next/link";
