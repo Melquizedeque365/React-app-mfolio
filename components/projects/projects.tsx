@@ -48,14 +48,14 @@ export const Projects = () => (
           </div>
           <div className="flex flex-col gap-2 rounded-lg border border-sky-200 dark:border-sky-900 p-4 bg-linear-to-r from-sky-50 to-blue-50 bg-linear-to-r dark:from-sky-950 dark:to-blue-950">
             <div className="rounded-lg mb-2">
-              <img src="/logo-s.jpg" alt="logo-s" className="w-full rounded-lg h-60 w-full" />
+              <img src="/applaravel-production.png" alt="logo-s" className="w-full rounded-lg h-60 w-full" />
             </div>
-            <h3 className="text-xl tracking-tight">Otechnology.</h3>
+            <h3 className="text-xl tracking-tight">Applaravel.</h3>
             <p className="text-muted-foreground text-base pb-10">
-              É um modelo de logo para uma empresa de tecnologia.
+              É um projecto de estudo do funcionamento do JWT no Laravel 12 com SqLite.
             </p>
               <Button size="lg" className="w-full gap-4 bg-linear-to-r from-sky-500 to-blue-500">
-                <Link href="https://www.linkedin.com/services/page/a80a20331571134685" className="flex justify-center gap-4 items-center">
+                <Link href="https://applaravel-production-f452.up.railway.app/api/create" className="flex justify-center gap-4 items-center">
                   Saiba Mais <MoveRight className="w-4 h-4" />
                 </Link>
               </Button>
